@@ -182,6 +182,7 @@ form {
 
 .right-zero{
 	margin-right: 0;
+	border-right: 0;
 }
 
 .left-zero {
@@ -250,6 +251,10 @@ form {
 	flex-direction: row-reverse;
 }
 
+#mission-container {
+	overflow-y:scroll;
+}
+
 #arrow-div{
 	display: inline-flex;
 	align-items: center;
@@ -260,12 +265,19 @@ form {
 	height: 30%;
 }
 
-#img2 {
-	background-image: url("../img/face.jpg");
+#mission-links a{
+	text-decoration: none;
+}
+
+#go-to-admin-btn {
+	background: transparent;
+}
+
+#go-to-admin-btn:hover {
+	background: darkgreen;
 }
 
 #img3 {
-	background-image: url("../img/landscape.jpg");
 	flex-direction: row;
 }
 

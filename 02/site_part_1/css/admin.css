@@ -1,0 +1,38 @@
+body{
+	background:black;
+}
+
+form {
+	padding-top: 2em;
+}
+
+.admin-row {
+	width: 100%;
+	height: 10em;
+	text-align: center;
+	padding-bottom: 0.5em;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+}
+#change-news {
+	width:100%;
+	height:100;
+}
+#change-news input[type=text]{
+	width: 40%;
+	text-align:center;
+}
+#change-news input[type=submit]{
+	vertical-align: center;
+	border: 0;	
+	padding: 0.5em;
+	text-align: center;
+	background: transparent;
+	color: white;
+	width:20%;
+}
+
+#change-news input[type=submit]:hover {
+	background: green;
+}

@@ -1,10 +1,10 @@
 "use strict";
 
-const title=["Nulla ultricies","Integer ullamcorper","Quisque vel consectetur"];
-const content=["Nulla lacinia quam enim, a porttitor felis sagittis id",
-			"Quisque consequat id quam non molestie. Sed nunc orci hendrerit vitae dui",
-			"Suspendisse efficitur mi quis nibh congue, at fermentum ex eleifend"];
 var div;
+
+$.get("php/news.php",function(data){
+	console.log(data);
+},"text");
 
 $(window).scroll(function(){
 	if($(window).scrollTop()>0){

@@ -15,7 +15,6 @@ $("#change-news").submit(function(event){
 					fileName: jsonFileName
 				},
 				method: "put",
-				dataType: "text",
 				statusCode:{
 					200: function(){
 						window.location="./index.html";

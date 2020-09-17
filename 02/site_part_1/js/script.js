@@ -30,7 +30,7 @@ $.getJSON("php/missions.php",function(data){
 });
 
 $("#go-to-admin-btn").click(function(){
-	window.location="login.php";
+	window.location="admin.html";
 });
 function createTopNews(i,start){
 	div=$("<div />",{

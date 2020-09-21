@@ -1,0 +1,60 @@
+* {
+	font-size: 1em;
+	font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+body{
+	background:black;
+}
+
+.admin-row {
+	width: 100%;
+	height: 10em;
+	text-align: center;
+}
+
+#back-home{
+	text-decoration:none;
+	width: 50%;
+}
+
+#change-news {
+	width:100%;
+	height:100;
+	padding-top: 2em;
+}
+
+#change-news input[type=text]{
+	width: 40%;
+	text-align:center;
+}
+
+#change-news input[type=submit]{
+	vertical-align: center;
+	border: 0;	
+	padding: 0.5em;
+	text-align: center;
+	background: transparent;
+	color: white;
+	width:20%;
+}
+
+#change-news input[type=submit]:hover {
+	background: green;
+}
+
+.action-button {
+	display: inline-block;
+	border: 0;	
+	padding: 0;
+	text-align: center;
+}
+.action-button input{
+	color:white;
+	background-color: transparent;
+	border: 0;
+	margin: 0;
+}
+.action-button input:hover{
+	color:white;
+	background-color: green;
+}

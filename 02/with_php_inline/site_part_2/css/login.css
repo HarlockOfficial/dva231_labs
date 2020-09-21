@@ -1,0 +1,48 @@
+* {
+	font-size: 1em;
+	font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+body {
+	background:black;
+	text-align:center;
+}
+
+.text-red {
+	color:red;
+}
+
+.invisible {
+	display: none;
+}
+
+.no-decoration{
+	text-decoration:none;
+	color:white;
+}
+
+#login-form {
+	width:100%;
+	height: 10em;
+	text-align:center;
+	padding-top:2em;
+}
+
+#login-form input[type=text],
+#login-form input[type=password]{
+	width: 40%;
+	text-align: center;
+}
+
+#login-form input[type=submit]{
+	vertical-align: center;
+	border: 0;	
+	padding: 0.5em;
+	text-align: center;
+	background: transparent;
+	color: white;
+	width: 20%;
+}
+
+#login-form input[type=submit]:hover {
+	background: green;
+}

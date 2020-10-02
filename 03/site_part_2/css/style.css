@@ -1,0 +1,294 @@
+* {
+	font-size: 1em;
+	font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+body {
+	background: black;
+}
+
+form {
+	display: inline-block;
+	background: lightgray;
+}
+
+.row {
+	width: 100%;
+	height: 10em;
+	text-align: center;
+	padding-bottom: 0.5em;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+}
+
+.default-column{
+	height: 100%;
+	box-sizing: border-box;
+	margin: 0.25em;
+}
+
+.column {
+	width: 25%;
+}
+
+.column-two {
+	width: 50%;
+}
+
+.column-four {
+	width: 100%;
+}
+
+.nav-btn {
+	background:gray;
+}
+
+.nav-btn:hover {
+	background:lightgray;
+}
+
+.nav-btn:not(:last-child){
+	border-right: 0.1em solid white;
+}
+.nav-btn:last-child{
+	border-right: 0 !important;
+}
+
+
+.nav-dropdown {
+	background:transparent;
+}
+
+.nav-dropdown:hover {
+	background:blue;
+}
+
+.nav-dropdown:not(:last-child){
+	border-right: 0.1em solid white;
+}
+.nav-dropdown:last-child{
+	border-right: 0 !important;
+}
+
+.no-right-bar {
+	border-right: 0 !important;
+}
+
+
+.flat {
+	display: inline-block;
+	vertical-align: center;
+	border: 0;	
+	padding: 0.5em;
+	border-right: 0.1em solid white;
+	text-align: center;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background: blue;
+	width: 100%;
+	z-index: 1;
+}
+
+.dropdown-content a{
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .nav-dropdown{
+	background:blue;
+}
+.card-content {
+	text-align:left;
+	display: inline-flex;
+	align-items: flex-start;
+	flex-direction:column-reverse;
+}
+
+.img-container {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.card-content h4{
+	background: blue;
+}
+.first {
+	order: 1;
+}
+.card-content p{
+	background: white;
+}
+.opacity-60 {
+	opacity: 0.6;
+}
+.line-up {
+	border-top: 0.1em solid white;
+}
+
+.line-down {
+	border-bottom: 0.1em solid white;
+	padding-bottom: 2em;
+}
+
+.text-blue {
+	color: blue;
+}
+
+.text-white {
+	color: white;
+}
+
+.back-white {
+	background: white;
+}
+
+.back-black{
+	background: black;
+}
+
+.font-10{
+	font-size: 10pt;
+}
+.font-40{
+	font-size: 40pt;
+}
+
+.fill-parent{
+	height: 100%;
+	width: 100%;
+	padding-bottom: 1.5em;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.bottom-zero {
+	margin-bottom: 0;
+}
+
+.top-zero{
+	margin-top: 0;
+} 
+
+.right-zero{
+	margin-right: 0;
+	border-right: 0;
+}
+
+.left-zero {
+	margin-left: 0;
+}
+
+#navbar {
+  width: 100%;
+  height: auto;
+  background: black;
+  padding-top: 0.5em;
+  z-index:2;
+}
+
+#left{
+	height: 100%;
+	float: left;
+}
+
+#up{
+	height: 50%;
+    width:100%;
+	display: block;
+	text-align:right;
+	padding-bottom: 0.5em;
+}
+
+#down{
+	height: 50%;
+	width:100%;
+	display: block;
+	text-align:center;
+}
+
+#gray-back {
+	display:inline-block; 
+	background:gray;
+}
+
+#search {
+	background:transparent;
+}
+
+#events{
+	flex-direction:column;
+	background: dodgerblue;
+	overflow-y:scroll;
+}
+
+#events p{
+	margin:0;
+}
+
+#twitter-prof-pic {
+	height:18pt;
+	width:18pt;
+}
+
+#twitter {
+	background: #173861;
+	overflow-y: scroll;
+}
+
+#right-span {
+	float:right;
+	flex-direction: row-reverse;
+}
+
+#mission-container {
+	overflow-y:scroll;
+}
+
+#arrow-div{
+	display: inline-flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
+#arrow {
+	height: 30%;
+}
+
+#mission-links a{
+	text-decoration: none;
+}
+
+#go-to-admin-btn {
+	background: transparent;
+}
+
+#go-to-admin-btn:hover {
+	background: darkgreen;
+}
+
+#img3 {
+	flex-direction: row;
+}
+
+#img4 {
+	background-image: url("../img/video.png");
+}
+
+#img5 {
+	background-image: url("../img/underwater.jpg")
+}

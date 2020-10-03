@@ -16,5 +16,5 @@
 	unset($res['id']);
 	unset($res['action']);
 	unset($res['date']);
-	echo json_encode($json);
+	echo json_encode($res);
 ?>

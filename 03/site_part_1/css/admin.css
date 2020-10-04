@@ -30,21 +30,16 @@ form {
 	margin-right: 1em;
 }
 
-.column-2 {
+.column {
 	height: 100%;
 	box-sizing: border-box;
-	width: 50%;
+	width: 33%;
 	margin: 0.25em;
 }
 input[type=text]{
 	width: 40%;
 	text-align:center;
 }
-
-#json-file {
-	display: none;
-}
-
-#image-file {
+input[type=file] {
 	display: none;
 }

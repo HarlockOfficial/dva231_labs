@@ -30,6 +30,6 @@ $("#login-form").submit(function(event){
 			405: function(){
 				alert("Request Method Error");
 			}
-		},
+		}
 	});
 });

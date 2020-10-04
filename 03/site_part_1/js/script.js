@@ -15,7 +15,7 @@ $.getJSON("php/news.php",function(data){
 	$("#img2").css("background-image","url("+data['small_news']['imgurl']+")");
 	$("#other-news-title").text(data['small_news']['title']);
 	$("#other-news").text(data['small_news']['content']);
-	addedNews=data['small_news']['extended-content'];
+	addedNews=data['small_news']['extended_content'];
 });
 
 $.getJSON("php/events.php",function(data){

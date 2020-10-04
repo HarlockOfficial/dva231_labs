@@ -8,7 +8,7 @@ $("#login-form").submit(function(event){
 		$("#username-error").show();
 		return;
 	}
-	if($("#login-form").find("input[type=password]").val().length<8 || "(?=.*\d)(?=.*[a-z])(?=.*[A-Z])".test($("#login-form").find("input[type=password]").val())){
+	if($("#login-form").find("input[type=password]").val().length<8 || /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])$/.test($("#login-form").find("input[type=password]").val())){
 		$("#password-error").show();
 		return;
 	}
@@ -30,6 +30,6 @@ $("#login-form").submit(function(event){
 			405: function(){
 				alert("Request Method Error");
 			}
-		},
+		}
 	});
 });

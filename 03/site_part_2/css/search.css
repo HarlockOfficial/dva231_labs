@@ -1,0 +1,21 @@
+* {
+	font-size: 1em;
+	font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+body {
+	background: black;
+	text-align: center;
+	color: white;
+	display: none;
+}
+img {
+	height: 20em;
+	width: 20em;
+}
+a{
+	margin: 1em;
+	color: white
+}
+.hide {
+	display:none;
+}

@@ -151,12 +151,20 @@ form {
 	color: white;
 }
 
+.text-orange {
+	color: orange;
+}
+
 .back-white {
 	background: white;
 }
 
 .back-black{
 	background: black;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 .font-10{
@@ -228,6 +236,9 @@ form {
 
 #search {
 	background:transparent;
+}
+#search-content {
+	display: block;
 }
 
 #events{

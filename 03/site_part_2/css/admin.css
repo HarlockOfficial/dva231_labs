@@ -4,6 +4,7 @@
 }
 body{
 	background:black;
+	color: white;
 }
 
 form {
@@ -12,34 +13,33 @@ form {
 
 .admin-row {
 	width: 100%;
-	height: 10em;
+	height: auto;
 	text-align: center;
+	padding-bottom: 0.5em;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .no-decoration{
 	text-decoration:none;
+	margin-top: 2em;
+}
+.no-decoration:not(:last-child) {
+	margin-right: 1em;
 }
 
-#change-news {
-	width:100%;
-	height:100;
+.column {
+	height: 100%;
+	box-sizing: border-box;
+	width: 33%;
+	margin: 0.25em;
 }
-
-#change-news input[type=text]{
+input[type=text]{
 	width: 40%;
 	text-align:center;
 }
-
-#change-news input[type=submit]{
-	vertical-align: center;
-	border: 0;	
-	padding: 0.5em;
-	text-align: center;
-	background: transparent;
-	color: white;
-	width:20%;
-}
-
-#change-news input[type=submit]:hover {
-	background: green;
+input[type=file] {
+	display: none;
 }

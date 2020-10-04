@@ -8,7 +8,7 @@
 	$sql="select text,url from mission_link where mission_id=:miss_id";
 	$arr[':miss_id']=$res['id'];
 	$links="";
-	while($link=query($sql,$arr)->fetch(PDO::FETCH_ASSOC)){
+	foreach(query($sql,$arr)->fetchAll(PDO::FETCH_ASSOC) as $link){
 		$links.="<a href='".$link['url']."'>".$link['text']."</a><br />";
 	}
 	
@@ -16,5 +16,5 @@
 	unset($res['id']);
 	unset($res['action']);
 	unset($res['date']);
-	echo json_encode($json);
+	echo json_encode($res);
 ?>

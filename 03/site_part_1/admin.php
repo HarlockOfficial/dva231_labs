@@ -26,20 +26,30 @@
 		or fill this form
 		</div>
 		<div class="admin-row">
-			<div class="column-2" id="raw-news">
+			<div class="column" id="raw-news">
 				if you are adding a news:<br />
 				<input type="text" placeholder="Write the News Title" /><br />
 				<input type="button" value="Upload the new Image" id="image-file-btn"/><input type="file" id="image-file"><br />
 				<textarea placeholder="Write the News Content" cols="20" rows="5" /></textarea><br />
 				if you are adding a small news, also fill:<br />
-				<textarea placeholder="Write the News Extended Content" cols="40" rows="10" /></textarea><br />
+				<textarea placeholder="Write the News Extended Content" cols="30" rows="10" /></textarea><br />
 			</div>
-			<div class="column-2" id="raw-mission">
+			<div class="column" id="raw-event">
+				if you are adding an event:<br/>
+				<input type="text" placeholder="Write the Action (Landing, Launch, ...)" /><br/>
+				<small>Select the event date</small><br />
+				<input type="date"/><br/>
+				<textarea placeholder="Write the Event Content" rows="5" cols="20" ></textarea><br/>
+			</div>
+			<div class="column" id="raw-mission">
 				if you are adding a mission:<br/>
+				<input type="text" placeholder="Write the Title" /><br/>
+				<input type="button" id="image-mission-btn" value="Upload the mission Image" /><input type="file" id="image-mission" /><br/>
 				<input type="text" placeholder="Write the Action (Landing, Launch, ...)" /><br/>
 				<small>Select the mission date</small><br />
 				<input type="date"/><br/>
 				<textarea placeholder="Write the Event Content" rows="5" cols="20" ></textarea><br/>
+				<textarea placeholder="Write <mission link name>,<mission link> one each line" rows="10" cols="30"></textarea>
 			</div>
 		</div>
 		<div class="admin-row">
